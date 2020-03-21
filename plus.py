@@ -22,20 +22,8 @@ def generate_key():
         return b64encode(private_key).decode('utf-8'), b64encode(public_key).decode('utf-8')
 
 
-
-
-
-
 def handle():
         return requests.post(url, headers=headers, data=json.dumps({"referrer": _yourID}))
- #   return requests.post("https://api.cloudflareclient.com/v0a745/reg", data=json.dumps({"referrer": _yourID}))
-	
-	
-	
-	
-
-
-
 
 
 for i in range(_YourGB):
