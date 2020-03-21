@@ -11,16 +11,7 @@ import datetime
 # insert your desired GB
 _YourGB = 1000000
 # insert your Device ID something like this
-def get_id():
-    return input("Enter your ID (.i.g: ...f669f7844994): ")
-
-_yourID = get_id()
-
-while (len(_yourID) != 36):
-    print("Err: Invalid ID!!")
-    _yourID = get_id()
-
-#_yourID = "047e57ef-49b3-462b-afc0-e32a0ebd11e5"
+_yourID = "047e57ef-49b3-462b-afc0-e32a0ebd11e5"
 key=None
 def generate_string(length):
     letters = string.ascii_letters + string.digits
