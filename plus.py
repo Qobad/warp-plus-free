@@ -34,7 +34,6 @@ for i in range(_YourGB):
             'Accept-Encoding': 'gzip',
             'User-Agent': 'okhttp/3.12.1'}
     install_id = generate_string(11)
-    #key = key if key else generate_key()
     key=generate_key()
     data = {"key": key[1],
             "install_id": install_id,
